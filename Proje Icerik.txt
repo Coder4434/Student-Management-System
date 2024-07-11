@@ -1,0 +1,40 @@
+Projede içerik olarak normal bi OBS sistem tasarımı var
+
+
+Burada admin işlemleri ve öğrenci işlemleri bulunuyor
+
+Admin giriş yaparak ; 
+Öğrenci ekleyebiliyor ve çıkarabiliyor, ders kaydı onaylıyor, ders ekleme, silme , danışman atama,
+sınav tarihi belirleme, sınav açma, not girme, sınav yeri belirleme, şifre değiştirebiliyor ve
+ders programı ayarlayabiliyor.
+
+
+Öğrenci de aynı şekilde giriş yaparak ;
+ders ekleyebiliyor ve çıkartabiliyor, sınav tarihlerini görüntüleyebiliyor, ders programını görebiliyor, 
+şifre değişikliği yapabiliyor , notlarını görüntüleyebiliyor, okulun sunduğu tüm dersleri dönem dönem görebiliyor
+
+
+Burada 1 tane login panelimiz var login paneline göre veritabanından status değeri kontrol edilerek admin
+veya öğrenci olduğu anlaşılıyor ve bu sayede adminse admin paneline öğrenciyse öğrenci paneline yönlendirme
+yapılıyor.
+
+Ayrıyeten login olan kullanıcının $user'ın bilgilerine göre tüm bilgileri getiriyor ve ona göre işlem yapılıyor
+
+obs-laravel dosyasında veritabanı bilgileri kayıtlı
+
+admin girişi 
+ kullanıcı adı : admin@example.com	
+ sifre : 123
+
+ogrenci girişi  
+   kullanıcı adı : 202523024
+   sifre : 123123
+
+
+
+
+
+
+
+
+

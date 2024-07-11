@@ -1,0 +1,22 @@
+
+.panel-content {
+    padding: 30px 15px;
+    width: calc(100% - 254px);
+  }
+  @media (max-width: 991px) {
+    .panel-content {
+      padding: 90px 15px 30px;
+      width: 100%;
+    }
+  }
+  .panel-content .webinar-card {
+    box-shadow: 0px 12px 23px 0px rgba(62, 73, 84, 0.04) !important;
+  }
+  .panel-content .webinar-card:hover {
+    transform: unset !important;
+    box-shadow: 0px 8px 23px 0px rgba(62, 73, 84, 0.15) !important;
+    transition: all 0.5s ease;
+  }
+  .panel-content .webinar-card .image-box::after {
+    border-radius: 10px 0 0 10px;
+  }
